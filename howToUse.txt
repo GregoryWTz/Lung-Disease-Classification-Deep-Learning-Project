@@ -22,5 +22,8 @@ Audio Standardization -> Split -> Augmentation -> Raw waveform (1D CNN) / Mel-sp
 Each CNN is run twice:  (a) audio only   (b) audio + metadata (age, gender, BMI, device, ...)
 -> Evaluation -> Representation / Model comparison
 
+Dataset source (After harmonized): https://drive.google.com/drive/folders/1vfupjwaNMe8r7g2qhzR5Gd59uDPbJ5kw
+Currently using: Testing2.rar
+
 Install:  pip install tensorflow librosa soundfile scikit-learn pandas matplotlib
 ========================================================================================================================
