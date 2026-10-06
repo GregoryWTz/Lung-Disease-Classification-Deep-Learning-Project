@@ -1,0 +1,26 @@
+I set an environment to use TensorFlow since it can only be used from py ver 3.9 - 3.12. I use 3.12.10
+py -3.12 -m venv tf_env
+
+And then to activate the environment
+tf_env\Scripts\activate
+
+Install TensorFlow
+pip install tensorflow
+
+Run the file
+py main.py
+
+deactivate the env:
+deactivate
+
+If numpy is unknown:  No module named 'numpy', install it
+pip install numpy
+
+========================================================================================================================
+Respiratory sound pipeline
+Audio Standardization -> Split -> Augmentation -> Raw waveform (1D CNN) / Mel-spectrogram (2D CNN)
+Each CNN is run twice:  (a) audio only   (b) audio + metadata (age, gender, BMI, device, ...)
+-> Evaluation -> Representation / Model comparison
+
+Install:  pip install tensorflow librosa soundfile scikit-learn pandas matplotlib
+========================================================================================================================
