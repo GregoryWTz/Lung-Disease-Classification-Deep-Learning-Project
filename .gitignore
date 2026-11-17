@@ -27,3 +27,10 @@ cache/
 # Optional: generated images
 # =========================
 *.png
+
+# =========================
+#  Other test files
+# =========================
+Inspect_data.py
+data_analysis.py
+MelGAN/
