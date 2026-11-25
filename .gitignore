@@ -16,6 +16,7 @@ Dataset/
 # Generated/cache files
 # =========================
 cache/
+cache_*
 
 # =========================
 # Large / generated results
@@ -34,3 +35,7 @@ cache/
 Inspect_data.py
 data_analysis.py
 MelGAN/
+synthetic/
+outputs/
+outputs_v2/
+outputs_v2_merged/
